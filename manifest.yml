@@ -1,0 +1,15 @@
+modules:
+  jira:issuePanel:
+    - key: test-app-hello-world-panel
+      function: main
+      title: Forge app for utk
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/b40095a2-74ab-4d69-bd51-0ca0caa3c3fd
+permissions:
+  scopes:
+    - read:jira-work
+    - write:jira-work
