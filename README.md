@@ -3,7 +3,6 @@
 
 This is a demo app built with [Atlassian Forge](https://developer.atlassian.com/platform/forge) that adds a checklist panel to Jira issues. The app shows off some platform capabilities and is intended to be used as educational material.
 
-![Screenshot of the Checklist for Jira Cloud](https://imgur.com/OMsQxC5)
 
 Forge is Atlassian's new hosted Functions-as-a-Service platform. You can write functions in a subset of Node within the context of Confluence and Jira and return React-like UI components.
 
